@@ -9,12 +9,20 @@ public class Operator {
 		int pBottom = 9;
 		double pHeight = 5.4;
 		
+		double sArea = ((sTop + sBottom) * sHeight / 2);
+		double pArea = (pBottom * pHeight);
 		System.out.println("<< 도형 넓이 비교 >>");
-		System.out.println("사다리꼴 넓이 : " + ((sTop + sBottom) * sHeight / 2));
-		System.out.println("평행사변형 넓이 : " + (pBottom * pHeight));
+		System.out.println("사다리꼴 넓이 : " + sArea);
+		System.out.println("평행사변형 넓이 : " + pArea);
 		
-		System.out.println("\n\n사다리꼴이 평행사변형보다 " + 
-				(((sTop + sBottom) * sHeight / 2) - (pBottom * pHeight)) + 
+		if(sArea > pArea)
+			System.out.println("\n\n사다리꼴이 평행사변형보다 " + 
+				(sArea - pArea) + 
 				" 더 큽니다.");
+		else
+			System.out.println("\n\n평행사변형이 사각형보다 " + 
+				(pArea - sArea) + 
+				" 더 큽니다.");
+		
 	}
 }
