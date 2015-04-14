@@ -6,9 +6,9 @@ package org.dimigo.oop;
 /**
  * <pre>
  * org.dimigo.oop
- *   |_ Car
+ *   |_ Car2
  * 
- * 개요 : Car Test 에서 필요한 객체 제공
+ * 개요 : Car Test 2 에서 필요한 객체 제공 + 생성자
  * 작성일 : 2015. 4. 13.
  * </pre>
  * 
@@ -16,13 +16,24 @@ package org.dimigo.oop;
  * @author JeongUkJae
  * @version : 1.0
  */
-public class Car {
+public class Car2 {
 	private String company;
 	private String model;
 	private String color;
 	private int maxSpeed;
 	private int price;
 	
+	public Car2() {
+		
+	}
+	
+	public Car2(String Company, String Model, String Color, int MaxSpeed, int Price) {
+		company = Company;
+		model = Model;
+		color = Color;
+		maxSpeed = MaxSpeed;
+		price = Price;
+	}
 	/**
 	 * @return the company
 	 */
@@ -31,38 +42,16 @@ public class Car {
 	}
 	
 	/**
-	 * @param company the company to set
-	 */
-	public void setCompany(String aCompany) {
-		company = aCompany;
-	}
-	
-	/**
 	 * @return the model
 	 */
 	public String getModel() {
 		return model;
 	}
-	
-	/**
-	 * @param model the model to set
-	 */
-	public void setModel(String aModel) {
-		model = aModel;
-	}
-	
 	/**
 	 * @return the color
 	 */
 	public String getColor() {
 		return color;
-	}
-	
-	/**
-	 * @param color the color to set
-	 */
-	public void setColor(String aColor) {
-		color = aColor;
 	}
 	
 	/**
@@ -73,23 +62,9 @@ public class Car {
 	}
 	
 	/**
-	 * @param maxSpeed the maxSpeed to set
-	 */
-	public void setMaxSpeed(int MaxSpeed) {
-		maxSpeed = MaxSpeed;
-	}
-	
-	/**
 	 * @return the price
 	 */
 	public int getPrice() {
 		return price;
-	}
-	
-	/**
-	 * @param price the price to set
-	 */
-	public void setPrice(int Price) {
-		price = Price;
 	}
 }
