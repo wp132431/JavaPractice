@@ -45,7 +45,7 @@ public class Score {
 				.append(sum = kor + math + eng)
 				.append("점\n")
 				.append("평균 : ")
-				.append(sum / 3)
+				.append(String.format("%.1f", sum / (double)3))
 				.append("점\n");
 		System.out.println(sb.toString());
 	}
