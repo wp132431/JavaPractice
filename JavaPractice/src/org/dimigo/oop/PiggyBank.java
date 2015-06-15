@@ -8,7 +8,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  *   |_ PiggyBank
  * 
- * 개요 : 
+ * 개요 : 돼지 저금통 클래스
  * 작성일 : 2015. 6. 15.
  * </pre>
  * 

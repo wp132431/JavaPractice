@@ -8,7 +8,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  *   |_ FamilyMember
  * 
- * 개요 : 
+ * 개요 : 가족의 정보를 담는 클래스
  * 작성일 : 2015. 6. 15.
  * </pre>
  * 

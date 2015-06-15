@@ -8,7 +8,7 @@ package org.dimigo.oop;
  * org.dimigo.oop
  *   |_ PiggyBankTest
  * 
- * 개요 : 
+ * 개요 : 돼지 저금통과 가족 멤버 클래스를 활용해서 예제 만들기
  * 작성일 : 2015. 6. 15.
  * </pre>
  * 
