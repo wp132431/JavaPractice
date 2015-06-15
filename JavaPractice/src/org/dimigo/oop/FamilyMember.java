@@ -21,6 +21,7 @@ public class FamilyMember {
 	private String memberName;
 	
 	public FamilyMember(String memberName) {
+		memberCnt++;
 		this.memberName = memberName;
 	}
 	
