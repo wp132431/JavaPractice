@@ -32,4 +32,9 @@ public class Circle extends Figure {
 	protected double calcArea() {
 		return Math.PI * radius * radius;
 	}
+	
+	@Override
+	protected void printCenter() {
+		System.out.printf("원 중심좌표 : (%d, %d)\n", super.centerX, super.centerY);
+	}
 }

@@ -34,4 +34,9 @@ public class Rectangle extends Figure {
 	protected double calcArea() {
 		return width * height;
 	}
+
+	@Override
+	protected void printCenter() {
+		System.out.printf("사각형 중심좌표 : (%d, %d)\n", super.centerX, super.centerY);
+	}
 }

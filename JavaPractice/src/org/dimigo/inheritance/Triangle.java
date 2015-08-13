@@ -35,4 +35,9 @@ public class Triangle extends Figure {
 	protected double calcArea() {
 		return width * height / 2.0;
 	}
+
+	@Override
+	protected void printCenter() {
+		System.out.printf("삼각형 중심좌표 : (%d, %d)\n", super.centerX, super.centerY);
+	}
 }
